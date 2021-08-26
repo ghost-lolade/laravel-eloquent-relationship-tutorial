@@ -3,6 +3,13 @@
 namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
+use App\Models\Category;
+use App\Models\SubCategory;
+use App\Models\Item;
+use App\Models\Order;
+use App\Models\Invoice;
+use App\Models\User;
+use Faker;
 
 class DatabaseSeeder extends Seeder
 {
